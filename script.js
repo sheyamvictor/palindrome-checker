@@ -26,7 +26,7 @@ result.innerHTML=message;
 
 result.classList.remove("success","error");
 
-result.classList.add("success","error");
+result.classList.add(isPlaindrome?"success":"error");
 
 
 });
